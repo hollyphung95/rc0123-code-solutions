@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 800px;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+header,
+.container-1,
+.container-2 {
+  display: flex;
+  margin: 0 auto;
+  gap: 2rem;
+  justify-content: space-around;
+  background-color: #1a96da;
+}
+
+header {
+  width: 100%;
+  justify-content: stretch;
+}
+
+h1 {
+  width: 100%;
+  font-size: 2.6rem;
+  line-height: 1rem;
+  font-weight: lighter;
+  padding-top: 5%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+h2,
+p {
+  width: 375px;
+  padding-top: 2%;
+  margin: 3%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.45rem;
+  font-weight: normal;
+  color: #fff;
+  padding-left: 15%;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-left: 16%;
+  padding-bottom: 5%;
+  color: lightgrey;
+}
+
+.container-1 {
+  padding: 0 8%;
+}
+
+.container-2 {
+  padding: 0 8%;
+}
+
+div.row {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  margin: 0 5%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid black;
+  position: relative;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 75%;
+  height: 75%;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  margin: 10%;
+}
+
+.box-1 {
+  background-image: url("images/merge.png");
+}
+
+.box-2 {
+  background-image: url("images/cloud-computing.png");
+}
+
+.box-3 {
+  background-image: url("images/discussion.png");
+}
+
+.text-container {
+  width: 100%;
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
