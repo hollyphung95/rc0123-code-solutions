@@ -38,5 +38,5 @@ console.log('typeof isSparta: ', typeof isSparta);
 
 var motto = fullName;
 motto = fullName + ' is the GOAT';
-console.log('value of area: ', motto);
-console.log('typeof area: ', typeof motto);
+console.log('value of motto: ', motto);
+console.log('typeof motto: ', typeof motto);
