@@ -43,4 +43,4 @@ The function should return the last element of the array. */
 function getLastElement(array) {
   return array[array.length - 1];
 }
-console.log(getLastElement([]));
+console.log('the last element of the string\n "this is a string"\nis:\t', getLastElement(['t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 's', 't', 'r', 'i', 'n', 'g']));
