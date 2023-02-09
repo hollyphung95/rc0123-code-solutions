@@ -13,8 +13,6 @@ console.dir($hint);
 
 var $paragraphs = document.querySelectorAll('p');
 console.log('the node list for all the p elements is ', $paragraphs);
-// console.dir($paragraphs);
 
 var $links = document.querySelectorAll('.example-link');
 console.log('the node list for all the elements with the class example-link is ', $links);
-// console.dir($links);
