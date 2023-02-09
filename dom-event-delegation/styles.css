@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #e6e6e6;
+  background-color: #202020;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #a7a7a7;
+  background-color: #202020;
+  transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: #d3d3d3;
+  background-color: #161616;
+}
+
+.container {
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem 1rem 0;
+}
+
+.task-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #313131;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 8px #006;
+}
+
+.task-list-item {
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.task-list-item:not(:last-child) {
+  border-bottom: 3px solid #202020;
+}
